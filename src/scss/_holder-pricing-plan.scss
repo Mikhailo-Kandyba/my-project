@@ -1,0 +1,82 @@
+.holder-pricing-plan {
+  background: #f0f1f1;
+  padding: 100px 0;
+  margin-bottom: 220px;
+}
+
+.title-pricing-plan {
+  text-align: center;
+  margin-bottom: 156px;
+
+  h3 {
+    font-size: 30px;
+    line-height: 22px;
+    color: $color-nero;
+    letter-spacing: 4px;
+    margin-bottom: 44px;
+  }
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+
+  .active {
+    box-shadow: 0 7px 20px -6px #000;
+  }
+
+
+  div {
+    background: linear-gradient(175deg, rgb(57, 73, 171) 30%, rgb(255, 255, 255) 31%);
+    width: 31%;
+    text-align: center;
+    min-height: 800px;
+    padding: 56px 103px;
+    margin: 0 16px;
+
+    &:hover {
+      box-shadow: 0 7px 20px -6px #000;
+    }
+
+    h4 {
+      font-size: 27px;
+      line-height: 22px;
+      color: $color-white;
+      letter-spacing: 1px;
+      margin-bottom: 53px;
+    }
+
+    p {
+      font-size: 55px;
+      line-height: 22px;
+      color: $color-white;
+      letter-spacing: 1px;
+      margin-bottom: 140px;
+
+      sup {
+        font-size: 15px;
+        line-height: 22px;
+        color: $color-white;
+      }
+
+      sub {
+        font-size: 15px;
+        line-height: 22px;
+        color: $color-white;
+      }
+    }
+
+    ul {
+      margin-bottom: 80px;
+    }
+
+    li {
+      font-size: 17px;
+      line-height: 22px;
+      color: $color-nero;
+      border-bottom: solid 1px #bfbfbf;
+      letter-spacing: 1px;
+      margin-bottom: 58px;
+    }
+  }
+}

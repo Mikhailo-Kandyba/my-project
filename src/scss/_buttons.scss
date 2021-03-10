@@ -1,0 +1,151 @@
+ button {
+  cursor: pointer;
+  background: $color-white;
+  border: solid 2px $color-teal;
+  font-size: 19px;
+  padding: 10px 20px;
+}
+
+.banner-btn {
+
+  button {
+    margin: 0 44px 0 0;
+    border: solid 3px $color-white;
+    font-size: 21px;
+    padding: 27px 33px;
+    letter-spacing: 1px;
+  }
+
+  .service-btn {
+    color: $color-white;
+    background: transparent;
+    margin: 0 40px;
+  }
+
+  .search-btn {
+    color: $color-white;
+    background: $color-teal;
+    border: solid 3px $color-teal;
+    padding: 28px 46px 28px 43px;
+
+    &:hover {
+      background: transparent;
+      border: solid 3px $color-white;
+    }
+  }
+}
+
+.holder-services {
+
+  .active {
+
+    .general-btn {
+      background: transparent;
+      color: $color-white;
+      border: solid 2px $color-white;
+    }
+  }
+}
+
+.holder-services {
+
+  button {
+    font-size: 20px;
+    padding: 19px 20px;
+    letter-spacing: 3px;
+    border: solid 2px $color-nero;
+  }
+  .card {
+
+    &:hover {
+
+      .general-btn {
+        background: transparent;
+        color: $color-white;
+        border: solid 2px $color-white;
+      }
+    }
+  }
+
+  .active {
+
+    .general-btn {
+      background: transparent;
+      color: $color-white;
+      border: solid 2px $color-white;
+    }
+  }
+}
+
+.btn-catalog {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 147px;
+
+  button {
+    margin: 0 40px;
+    padding: 19px 38px;
+
+    &:hover {
+      background: $color-teal;
+      color: $color-white;
+    }
+  }
+
+  .active-btn {
+    background: $color-teal;
+    color: $color-white;
+  }
+}
+
+.view-all-btn {
+  display: flex;
+  justify-content: center;
+
+  .general-btn {
+    background: $color-teal;
+    color: $color-white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 28px 73px;
+  }
+}
+
+.price {
+
+  .general-btn {
+    border: none;
+    background: $color-teal;
+    color: $color-white;
+  }
+
+  div {
+
+    button {
+      color: $color-nero;
+      padding: 23px 60px;
+      font-size: 20px;
+    }
+
+    &:hover {
+
+      .general-btn {
+        border: none;
+        background: $color-teal;
+        color: $color-white;
+      }
+    }
+  }
+}
+
+ .send-btn {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 95px;
+
+   .general-btn {
+     font-size: 21px;
+     padding: 28px 100px;
+     border-radius: 7px;
+   }
+ }

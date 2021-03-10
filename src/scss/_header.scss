@@ -1,0 +1,35 @@
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 144px;
+
+  .logo {
+
+    h1 {
+      font-size: 28px;
+      line-height: 22px;
+      color: $color-nero;
+    }
+  }
+}
+
+.menu-navigation {
+  margin-right: 22px;
+
+  ul {
+    display: flex;
+
+    li {
+      margin: 0 0 0 32px;
+
+
+      a {
+        font-size: 21px;
+        line-height: 22px;
+        color: $color-nero;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}

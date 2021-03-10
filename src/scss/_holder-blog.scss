@@ -1,0 +1,82 @@
+.holder-blog {
+  background: #e4fdf9;
+}
+
+.blog {
+  padding: 175px 0 152px;
+
+  .more-viev-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.title-blog {
+  text-align: center;
+  margin-bottom: 158px;
+
+  h3 {
+    font-size: 37px;
+    line-height: 22px;
+    color: $color-nero;
+    margin-bottom: 46px;
+  }
+}
+
+.blog-catalog {
+  margin-bottom: 141px;
+
+  .holder {
+    display: flex;
+
+    .holder-text-blog {
+      display: flex;
+      flex-direction: column;
+      padding: 67px 40px;
+
+      p {
+        font-size: 15px;
+        line-height: 22px;
+        color: $color-nero;
+      }
+
+      h3 {
+        font-size: 29px;
+        line-height: 22px;
+        color: $color-teal;
+        margin-bottom: 40px;
+      }
+
+      div {
+        display: flex;
+        margin-bottom: 29px;
+
+        span {
+          display: flex;
+          margin-right: 70px;
+
+          i {
+            font-size: 22px;
+            padding-right: 20px;
+          }
+
+          p {
+            font-size: 20px;
+            line-height: 26px;
+            color: $color-nero;
+          }
+        }
+      }
+    }
+  }
+}
+
+.more-viev-btn {
+
+  button {
+    font-size: 22px;
+    padding: 27px 60px;
+    color: $color-white;
+    background: $color-teal;
+  }
+}

@@ -1,0 +1,36 @@
+.banner {
+  background: url("../images/banner-fon.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 787px;
+  margin-bottom: 150px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  text-align: center;
+  padding: 237px 0 0 0;
+
+  h2 {
+    font-size: 60px;
+    line-height: 22px;
+    color: $color-white;
+    margin-bottom: 65px;
+    letter-spacing: 7px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 22px;
+    color: $color-white;
+    margin-bottom: 132px;
+    letter-spacing: 2px;
+  }
+}
+

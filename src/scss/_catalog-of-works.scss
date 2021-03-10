@@ -1,0 +1,30 @@
+.catalog-of-works {
+  margin-bottom: 220px;
+
+  .title-catalog {
+    text-align: center;
+    margin-bottom: 139px;
+
+    h3 {
+      font-size: 30px;
+      line-height: 22px;
+      letter-spacing: 4px;
+      color: $color-nero;
+      margin-bottom: 43px;
+    }
+  }
+}
+
+.photo-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 123px;
+
+  li {
+    margin: 0 9px 35px;
+
+    &:hover {
+      background: #494949;
+    }
+  }
+}
