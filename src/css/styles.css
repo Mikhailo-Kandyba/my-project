@@ -191,6 +191,9 @@ button {
         color: #212121;
         letter-spacing: 3px; }
 
+.mobile-menu-navigation {
+  display: none; }
+
 .container {
   margin: 0 auto;
   max-width: 1450px;
